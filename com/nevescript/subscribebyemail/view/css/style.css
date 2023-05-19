@@ -10,7 +10,12 @@
     display: flexbox;
 }
 
-.__subscription_section .__subscription_section_title
+.__subscription_section .__subscription_section_title_container
+{
+    justify-content: center;
+    display: flex;
+}
+.__subscription_section .__subscription_section_title_container .__subscription_section_title
 {
     color: var(--cor_texto);
     font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +26,13 @@
     color: rgb(255, 61, 61);
 }
 
-.__subscription_section p
+.__subscription_section .__subscription_section_description
+{
+    justify-content: center;
+    display: flex;
+}
+
+.__subscription_section .__subscription_section_description p
 {
     color: var(--cor_texto);
 }
